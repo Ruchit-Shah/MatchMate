@@ -195,6 +195,9 @@
 			);
 			mainGroup = BE2B6E152FD85BC800C4A1B6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BE2B6E552FD8975E00C4A1B6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BE2B6E1F2FD85BC800C4A1B6 /* Products */;
 			projectDirPath = "";
@@ -570,6 +573,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE2B6E552FD8975E00C4A1B6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = BE2B6E162FD85BC800C4A1B6 /* Project object */;
 }
