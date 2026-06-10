@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct MatchMateApp: App {
+    private let appCoordinator = AppCoordinator(container: DependencyContainer())
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            appCoordinator.rootView()
         }
     }
 }
